@@ -128,7 +128,7 @@ const StyleItem = styled.li`
 
 const Item = ({ children }) => {
   return (
-    <StyleItem className="relative text-gray-600 h-full m-0 transition-all duration-200">
+    <StyleItem className="relative h-full m-0 transition-all duration-200">
       {children}
     </StyleItem>
   );

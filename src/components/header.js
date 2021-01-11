@@ -17,7 +17,7 @@ export default Header;
 
 const HeaderContainer = ({ children }) => {
   return (
-    <header className="w-full  h-16 flex justify-center items-center shadow">
+    <header className="w-full h-16 flex justify-center items-center shadow bg-transparent absolute top-0 z-50">
       {children}
     </header>
   );
@@ -25,7 +25,7 @@ const HeaderContainer = ({ children }) => {
 
 const Container = ({ children }) => {
   return (
-    <div className="container bg-blue-5300 w-full h-full flex justify-between">
+    <div className="container w-full h-full flex justify-between text-white">
       {children}
     </div>
   );

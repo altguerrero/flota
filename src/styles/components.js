@@ -11,7 +11,7 @@ export const Logo = () => {
         className="w-10 h-10 m-0"
         description="Consolas Retro"
       />
-      <span className="text-xl font-bold block pt-1 ml-2  text-gray-800">
+      <span className="text-xl font-bold block pt-1 ml-2">
         Consolas Retro
       </span>
     </Link>

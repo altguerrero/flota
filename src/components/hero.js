@@ -37,7 +37,7 @@ export default Hero;
 const StyleHero = styled.div`
   position: relative;
   & > div {
-    height: 600px;
+    height: 664px;
     width: 100%;
     display: flex;
     justify-content: center;
