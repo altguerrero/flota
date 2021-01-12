@@ -18,7 +18,7 @@ const Menu = () => (
             </DropIcon>
             <DropInfo
               title="Cosolas Arcade"
-              description="Nuestra misión es darte el poder para alcanzar tus sueños a través de la educación"
+              description="¿Un centro de juegos retro en tu casa? ¡No hay problema! Lo tenemos para ti."
             />
           </DropItem>
           <DropItem>

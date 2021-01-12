@@ -17,7 +17,7 @@ export default Header;
 
 const HeaderContainer = ({ children }) => {
   return (
-    <header className="w-full h-16 flex justify-center items-center shadow bg-transparent absolute top-0 z-50">
+    <header className="w-full h-20 flex justify-center items-center shadow bg-transparent absolute top-0 z-50">
       {children}
     </header>
   );

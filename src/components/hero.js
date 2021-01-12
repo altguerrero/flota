@@ -18,7 +18,7 @@ const Hero = () => (
               retro.
             </p>
             <p className="leading-relaxed text-xl">
-              Anímate y haz parte de de él con la variedad de consolas que te
+              Anímate y haz parte de él con la variedad de consolas que te
               ofrecemos.
             </p>
           </div>
@@ -37,10 +37,14 @@ export default Hero;
 const StyleHero = styled.div`
   position: relative;
   & > div {
-    height: 664px;
+    height: 680px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &::after {
+      background-attachment: fixed;
+    }
   }
 `;
