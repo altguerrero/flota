@@ -1,6 +1,3 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-});
 module.exports = {
   siteMetadata: {
     title: "Flota",
@@ -30,21 +27,11 @@ module.exports = {
       __key: "images",
     },
     {
-      resolve: `gatsby-source-cloudinary`,
-      options: {
-        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-        apiKey: process.env.CLOUDINARY_API_KEY,
-        apiSecret: process.env.CLOUDINARY_API_SECRET,
-        resourceType: `image`,
-        prefix: `consolas-retro/`,
-      },
-    },
-    {
       resolve: "gatsby-transformer-cloudinary",
       options: {
-        cloudName: process.env.CLOUDINARY_CLOUD_NAME,
-        apiKey: process.env.CLOUDINARY_API_KEY,
-        apiSecret: process.env.CLOUDINARY_API_SECRET,
+        cloudName: "dng0a1ian",
+        apiKey: "995125942981528",
+        apiSecret: "a4l6vB7qpzFmFM7238edtiDBpjg",
         uploadFolder: "consolas-retro",
       },
     },
